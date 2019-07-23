@@ -25,7 +25,7 @@ class Navbar extends Component {
 
 const NavBarWrapper = styled.div`
   height: 5vm;
-  width: 100vw;
+  max-width: 100vw;
   background: white;
   border: 1px solid red;
   display: flex;
