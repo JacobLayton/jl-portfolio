@@ -26,10 +26,11 @@ class Navbar extends Component {
 const NavBarWrapper = styled.div`
   height: 5vm;
   max-width: 100vw;
-  background: white;
+  background: transparent;
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
+  z-index: 999;
 `;
 
 const NavLinkWrapper = styled(NavLink)`
