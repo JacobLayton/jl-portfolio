@@ -1,0 +1,41 @@
+.parallax {
+  /* The image used */
+  background-image: url("../img/jumbo2.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box1 {
+  width: 100%;
+  background: #378d8f;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.box2 {
+  width: 100%;
+  background: #ebc7b7;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.box3 {
+  width: 100%;
+  background: #a4afae;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.box4 {
+  width: 100%;
+  background: #28201d;
+  height: 200px;
+  margin-bottom: 50px;
+}
