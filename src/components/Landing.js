@@ -8,12 +8,18 @@ class Home extends Component {
     return (
       <div class="landing-container">
         <div class="parallax" />
-        <p>Hello,my name is Jacob.</p>
-        <p>I'm a Full Stack Web Developer</p>
-        <div class="box1">Hello1</div>
-        <div class="box2">Hello2</div>
-        <div class="box3">Hello3</div>
-        <div class="box4">Hello4</div>
+        <div class="nameTitle">
+          <h1>Jacob Layton</h1>
+          <h3>Full Stack Web Developer</h3>
+        </div>
+        <div>
+          <p>Hello,my name is Jacob.</p>
+          <p>I'm a Full Stack Web Developer</p>
+          <div class="box1">Hello1</div>
+          <div class="box2">Hello2</div>
+          <div class="box3">Hello3</div>
+          <div class="box4">Hello4</div>
+        </div>
       </div>
     );
   }

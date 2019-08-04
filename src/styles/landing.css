@@ -1,6 +1,6 @@
 .parallax {
   /* The image used */
-  background-image: url("../img/jumbo2.jpg");
+  background-image: url("../img/starscape.jpg");
 
   /* Set a specific height */
   min-height: 100vh;
@@ -10,6 +10,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.nameTitle {
+  text-align: center;
+  color: white;
+  margin-top: -500px;
+  margin-bottom: 500px;
 }
 
 .box1 {
