@@ -1,6 +1,12 @@
+/* @font-face {
+  font-family: "Josefin-Sans";
+  src: local("Josefin-Sans"),
+    url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+} */
+
 .parallax {
   /* The image used */
-  background-image: url("../img/starscape.jpg");
+  background-image: url("../img/jumbo2.jpg");
 
   /* Set a specific height */
   min-height: 100vh;
@@ -19,6 +25,26 @@
   margin-bottom: 550px;
 }
 
+.name-headline {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-size: 3.2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+  text-transform: none !important;
+}
+
+.title-headline {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-size: 1.41rem;
+  line-height: 1.5em;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
 .box1 {
   width: 100%;
   background: #378d8f;
