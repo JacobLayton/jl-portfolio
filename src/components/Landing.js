@@ -9,8 +9,8 @@ class Home extends Component {
       <div class="landing-container">
         <div class="parallax" />
         <div class="nameTitle">
-          <h1>Jacob Layton</h1>
-          <h3>Full Stack Web Developer</h3>
+          <span class="name-headline">Hello, I am Jacob</span>
+          <span class="title-headline">FULL STACK WEB DEVELOPER</span>
         </div>
         <div>
           <p>Hello,my name is Jacob.</p>
