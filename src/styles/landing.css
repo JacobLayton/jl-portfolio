@@ -12,7 +12,8 @@
   min-height: 100vh;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +23,7 @@
   text-align: center;
   color: white;
   margin-top: -550px;
-  margin-bottom: 550px;
+  margin-bottom: 465px;
 }
 
 .name-headline {
@@ -45,7 +46,9 @@
   letter-spacing: 0.1rem;
   font-weight: 600;
 }
-.box1 {
+.about-me {
+  text-align: center;
+  color: white;
   width: 100%;
   background: #378d8f;
   height: 200px;
