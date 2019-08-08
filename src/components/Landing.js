@@ -13,9 +13,17 @@ class Home extends Component {
           <span class="title-headline">FULL STACK WEB DEVELOPER</span>
         </div>
         <div>
-          <p>Hello,my name is Jacob.</p>
-          <p>I'm a Full Stack Web Developer</p>
-          <div class="box1">Hello1</div>
+          <div class="about-me">
+            <div class="about-me-contents">
+              <h4>Featured Work</h4>
+              <p>
+                Hello, I'm Jacob. I am a Web Designer & Developer who is
+                passionate about crafting clean interfaces that provide user
+                friendly experiences. Below you can observe some of the projects
+                that I've had the privilege of building recently.
+              </p>
+            </div>
+          </div>
           <div class="box2">Hello2</div>
           <div class="box3">Hello3</div>
           <div class="box4">Hello4</div>
