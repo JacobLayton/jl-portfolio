@@ -19,7 +19,7 @@
   background-size: cover;
 }
 
-.nameTitle {
+.name-title {
   text-align: center;
   color: white;
   margin-top: -550px;
@@ -46,13 +46,28 @@
   letter-spacing: 0.1rem;
   font-weight: 600;
 }
+
+/* .name-title button {
+  background: none;
+} */
+
 .about-me {
-  text-align: center;
   color: white;
   width: 100%;
-  background: #378d8f;
-  height: 200px;
-  margin-bottom: 50px;
+  background: #bca480;
+  height: 473px;
+  padding-top: 50px;
+}
+
+.about-me h4 {
+  text-align: center;
+}
+
+.about-me p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .box2 {
