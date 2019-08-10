@@ -47,9 +47,14 @@
   font-weight: 600;
 }
 
-/* .name-title button {
-  background: none;
-} */
+.name-title button {
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  max-width: 170px;
+  width: 100%;
+  color: white;
+}
 
 .about-me {
   color: white;
