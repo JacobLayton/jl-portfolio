@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import jumbo2 from "../img/jumbo2.jpg";
-import styled from "styled-components";
 import "../styles/landing.css";
+import { Button } from "reactstrap";
 
 class Home extends Component {
   render() {
     return (
       <div class="landing-container">
         <div class="parallax" />
-        <div class="nameTitle">
+        <div class="name-title">
           <span class="name-headline">Hello, I am Jacob</span>
           <span class="title-headline">FULL STACK WEB DEVELOPER</span>
+          <Button>VIEW WORK</Button>
         </div>
         <div>
           <div class="about-me">
@@ -24,6 +24,7 @@ class Home extends Component {
               </p>
             </div>
           </div>
+          <div class="featured-content" />
           <div class="box2">Hello2</div>
           <div class="box3">Hello3</div>
           <div class="box4">Hello4</div>
