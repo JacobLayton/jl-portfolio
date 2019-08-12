@@ -79,6 +79,18 @@
   background
 } */
 
+.box1 {
+  width: 40%;
+  background: red;
+  height: 300px;
+}
+
+.box5 {
+  width: 40%;
+  background: blue;
+  height: 300px;
+}
+
 .box2 {
   width: 100%;
   background: #ebc7b7;
