@@ -13,7 +13,7 @@ class Home extends Component {
           <Button>VIEW WORK</Button>
         </div>
         <div>
-          <div class="about-me">
+          <section class="about-me">
             <div class="about-me-contents">
               <h4>Featured Work</h4>
               <p>
@@ -23,9 +23,13 @@ class Home extends Component {
                 that I've had the privilege of building recently.
               </p>
             </div>
-          </div>
-          <div class="featured-content" />
-          <div class="box2">Hello2</div>
+          </section>
+          <section class="featured-content">
+            <div class="box1">Box1</div>
+            <div class="box5">Box2</div>
+            <Button>VIEW ALL WORK</Button>
+          </section>
+          <div class="box2">About Me</div>
           <div class="box3">Hello3</div>
           <div class="box4">Hello4</div>
         </div>
