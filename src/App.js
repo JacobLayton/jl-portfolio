@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header className="App-header">
-          <Navbar />
+          {/* <Navbar /> */}
           <Route exact path="/" component={Construction} />
           <Route exact path="/home" component={Landing} />
           <Route exact path="/projects" component={Projects} />
