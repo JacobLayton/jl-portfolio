@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../styles/landing.css";
 import { Button } from "reactstrap";
+import Carousel from "./Carousel";
 
 class Home extends Component {
   render() {
@@ -25,8 +26,11 @@ class Home extends Component {
             </div>
           </section>
           <section class="featured-content">
-            <div class="box1">Box1</div>
-            <div class="box5">Box2</div>
+            <Carousel />
+            {/* <div class="project-thumbs">
+              <div class="box1">Box1</div>
+              <div class="box5">Box2</div>
+            </div> */}
             <Button>VIEW ALL WORK</Button>
           </section>
           <div class="box2">About Me</div>
