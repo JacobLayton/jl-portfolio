@@ -1,11 +1,23 @@
 form {
-  border: 1px solid gray;
-  max-width: 75%;
-  padding: 20px;
-  margin: auto;
+  /* border: 1px solid gray; */
+  max-width: 65%;
+  padding: 13vh 50px;
+  margin: 50px auto 0;
+}
+
+.the-form {
+  /* margin-top: 200px; */
+  min-height: 75vh;
 }
 
 form .form-control {
-  border: 1px solid red;
+  border: none;
+  border-bottom: 1px solid #bca480;
   border-radius: 0;
+  margin: 20px 0;
+  background: #f6f7f7;
+}
+
+#exampleText {
+  min-height: 126px;
 }

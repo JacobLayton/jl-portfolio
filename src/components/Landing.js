@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../styles/landing.css";
 import { Button } from "reactstrap";
 import Carousel from "./Carousel";
+import me from "../img/me.JPG";
 
 class Home extends Component {
   render() {
@@ -14,9 +15,10 @@ class Home extends Component {
           <Button>VIEW WORK</Button>
         </div>
         <div>
-          <section class="about-me">
-            <div class="about-me-contents">
+          <section class="about-featured">
+            <div class="about-featured-contents">
               <h4>Featured Work</h4>
+              <h4>___</h4>
               <p>
                 Hello, I'm Jacob. I am a Web Designer & Developer who is
                 passionate about crafting clean interfaces that provide user
@@ -33,9 +35,29 @@ class Home extends Component {
             </div> */}
             <Button>VIEW ALL WORK</Button>
           </section>
-          <div class="box2">About Me</div>
-          <div class="box3">Hello3</div>
-          <div class="box4">Hello4</div>
+          <section class="about-me">
+            <h4>About Me</h4>
+            <div className="upper">
+              <img className="portrait" src={me} alt="Me" />
+              <p className="main-paragraph">
+                This is going to be an about me section that will list all the
+                important information about me. Something quick and to the point
+                but also long enough to give potential employers a good idea of
+                who I am in real life. Im a die hard fan of the Portland Trail
+                Blazers and I pet every dog that I see.
+              </p>
+            </div>
+            <div className="lower">
+              <p>____</p>
+              <p>This | Will | Be | A | List | Of</p>
+              <p>All | My | Technical | Skills</p>
+              <p>____</p>
+              <p>Photoshop | Ableton Live | Basketball | Snowboarding</p>
+            </div>
+            <Button>Contact Me</Button>
+          </section>
+          {/* <div class="box3">Hello3</div>
+          <div class="box4">Hello4</div> */}
         </div>
       </div>
     );
