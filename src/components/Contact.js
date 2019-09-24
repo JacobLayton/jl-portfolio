@@ -13,51 +13,61 @@ import {
 export default class Contact extends React.Component {
   render() {
     return (
-      <Form>
+      <Form className="the-form">
         <FormGroup row>
-          <Label for="name" sm={2}>
+          {/* <Label for="name" sm={2}>
             Name
-          </Label>
-          <Col sm={10}>
+          </Label> */}
+          <Col sm={12}>
             <Input
               type="text"
               name="name"
               id="exampleName"
-              placeholder="first and last please"
+              placeholder="name"
             />
           </Col>
         </FormGroup>
         <FormGroup row>
-          <Label for="email" sm={2}>
+          {/* <Label for="email" sm={2}>
             Email
-          </Label>
-          <Col sm={10}>
-            <Input type="email" name="email" id="exampleEmail" placeholder="" />
+          </Label> */}
+          <Col sm={12}>
+            <Input
+              type="email"
+              name="email"
+              id="exampleEmail"
+              placeholder="email"
+            />
           </Col>
         </FormGroup>
         <FormGroup row>
-          <Label for="subject" sm={2}>
+          {/* <Label for="subject" sm={2}>
             Subject
-          </Label>
-          <Col sm={10}>
+          </Label> */}
+          <Col sm={12}>
             <Input
               type="text"
               name="subject"
               id="exampleSubject"
-              placeholder=""
+              placeholder="subject"
             />
           </Col>
         </FormGroup>
         <FormGroup row>
-          <Label for="exampleText" sm={2}>
+          {/* <Label for="exampleText" sm={2}>
             Message
-          </Label>
-          <Col sm={10}>
-            <Input type="textarea" name="text" id="exampleText" />
+          </Label> */}
+          <Col sm={12}>
+            <Input
+              type="textarea"
+              name="text"
+              id="exampleText"
+              placeholder=""
+            />
           </Col>
         </FormGroup>
         <FormGroup check row>
-          <Col sm={{ size: 10, offset: 2 }}>
+          <Col sm={{ size: 10, offset: 5 }}>
             <Button>Submit</Button>
           </Col>
         </FormGroup>
