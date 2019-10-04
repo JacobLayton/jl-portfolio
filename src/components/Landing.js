@@ -3,6 +3,18 @@ import "../styles/landing.css";
 import { Button } from "reactstrap";
 import Carousel from "./Carousel";
 import me from "../img/me.JPG";
+import proj1 from "../img/proj1.jpg";
+import { withRouter, Link } from "react-router-dom";
+
+const FeaturedProj = withRouter(({ history }) => (
+  <img
+    src={proj1}
+    onClick={() => {
+      history.push("/bookmaps");
+      window.scrollTo(0, 0);
+    }}
+  />
+));
 
 class Home extends Component {
   render() {
@@ -28,12 +40,15 @@ class Home extends Component {
             </div>
           </section>
           <section class="featured-content">
-            <Carousel />
+            {/* <Carousel /> */}
+            <FeaturedProj />
+            {/* <img class="featured-project" src={proj1} /> */}
             {/* <div class="project-thumbs">
               <div class="box1">Box1</div>
               <div class="box5">Box2</div>
             </div> */}
             <Button>VIEW ALL WORK</Button>
+            {/* <FeaturedProj /> */}
           </section>
           <section class="about-me">
             <h4>About Me</h4>

@@ -26,7 +26,7 @@ class Navbar extends Component {
           </NavLinkWrapper>
           <NavLinks>
             <NavLinkWrapper to="/projects">Projects</NavLinkWrapper>
-            <NavLinkWrapper to="/about">About</NavLinkWrapper>
+            <NavLinkWrapper to="/home">About</NavLinkWrapper>
             <NavLinkWrapper to="/contact">Contact</NavLinkWrapper>
           </NavLinks>
         </NavBarWrapper>

@@ -82,6 +82,16 @@
   width: 80%;
 }
 
+.featured-content img {
+  margin: auto;
+  margin-top: -350px;
+  margin-bottom: 30px;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #bca480;
+}
+
 /* .carousel-item {
   height: 600px;
 } */
@@ -166,7 +176,7 @@
 }
 
 .lower {
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
   border-bottom: 1px solid #bca480;
   border-left: 1px solid #bca480;
   border-right: 1px solid #bca480;
