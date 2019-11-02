@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import { withRouter } from "react-router";
+// import { withRouter } from "react-router";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header className="App-header">
-          <Navbar />
+          {/* <Navbar /> */}
           <Route exact path="/" component={Construction} />
           <Route exact path="/home" component={Landing} />
           <Route exact path="/projects" component={Projects} />

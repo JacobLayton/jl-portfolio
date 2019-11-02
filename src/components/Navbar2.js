@@ -26,7 +26,7 @@ class Navbar extends Component {
             <NavLogoWrapper src={Logo} alt="Logo of J L" />
           </NavLinkWrapper>
           <NavLinks>
-            <NavLinkWrapper to="/projects">Projects</NavLinkWrapper>
+            {/* <NavLinkWrapper to="/projects">Projects</NavLinkWrapper>
             <NavLinkWrapper>
               <Link
                 activeClass="active"
@@ -39,7 +39,8 @@ class Navbar extends Component {
                 About
               </Link>
             </NavLinkWrapper>
-            <NavLinkWrapper to="/contact">Contact</NavLinkWrapper>
+            <NavLinkWrapper to="/contact">Contact</NavLinkWrapper> */}
+            <NavLinkWrapper to="/home">&lt;Back</NavLinkWrapper>
           </NavLinks>
         </NavBarWrapper>
       </div>
@@ -75,9 +76,8 @@ const NavLinkWrapper = styled(NavLink)`
 // `;
 
 const NavLogoWrapper = styled.img`
-  height: 90px;
+  height: 40px;
   border: 1px solid blue;
-  margin-top: -15px;
 `;
 
 const NavLinks = styled.div`
