@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/tkbot" component={Tkbot} />
           <Route exact path="/farmfresh" component={Farmfresh} />
           <Route exact path="/contact" component={Contact} />
-          <Footer />
+          {/* <Footer /> */}
         </header>
       </div>
     </BrowserRouter>
