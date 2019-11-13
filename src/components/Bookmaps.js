@@ -3,11 +3,13 @@ import { Button } from "reactstrap";
 import proj1 from "../img/proj1.jpg";
 import proj2 from "../img/proj2.jpg";
 import proj5 from "../img/proj5.jpg";
+import Navbar2 from "./Navbar2";
 
 class Bookmaps extends Component {
   render() {
     return (
       <div>
+        <Navbar2 />
         <section>
           <div>
             <h2>Bookmaps</h2>
