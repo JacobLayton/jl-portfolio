@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
   Carousel,
   CarouselItem,
@@ -39,6 +40,10 @@ class ProjectCarousel extends Component {
     this.onExited = this.onExited.bind(this);
   }
 
+  // nextPath(path) {
+  //   this.props.history.push(path);
+  // }
+
   onExiting() {
     this.animating = true;
   }
@@ -72,6 +77,14 @@ class ProjectCarousel extends Component {
 
   render() {
     const { activeIndex } = this.state;
+
+    // let PojectImage = withRouter(({ history }) => (
+    //   <img
+    //     onClick={() => {
+    //       history.push("/new-location");
+    //     }}
+    //   />
+    // ));
 
     const slides = items.map(item => {
       return (
