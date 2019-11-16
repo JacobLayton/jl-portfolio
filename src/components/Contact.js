@@ -16,7 +16,11 @@ export default class Contact extends React.Component {
     return (
       <div>
         <Navbar2 />
-        <Form className="the-form">
+        <Form
+          className="the-form"
+          action="https://formspree.io/mgeeydyk"
+          method="POST"
+        >
           <FormGroup row>
             {/* <Label for="name" sm={2}>
               Name
@@ -68,10 +72,15 @@ export default class Contact extends React.Component {
                 placeholder=""
               />
             </Col>
+            <Input
+              type="hidden"
+              name="_next"
+              value="http://localhost:3000/home"
+            />
           </FormGroup>
           <FormGroup check row>
             <Col sm={{ size: 10, offset: 5 }}>
-              <Button>Submit</Button>
+              <Button type="submit">Submit</Button>
             </Col>
           </FormGroup>
         </Form>
