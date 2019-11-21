@@ -1,0 +1,30 @@
+.projects-main {
+    background-color: #f6f7f7;
+    padding-top: 50px;
+}
+
+.title-description {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.single-project {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-images img:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.project-images button {
+    position: absolute;
+    left: 47.5%;
+    top: 75%;
+    opacity: 0;
+}
+
+.project-images button:hover {
+    opacity: 1;
+}
