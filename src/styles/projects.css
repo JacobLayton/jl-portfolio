@@ -8,18 +8,77 @@
   border-bottom: 1px solid gray;
 }
 
-/* .single-project {
-  display: flex;
-  flex-direction: column;
-} */
-
 .single-project {
   position: relative;
   height: 683px;
   width: 1024px;
 }
 
-.single-project img {
+/* .single-project:hover {
+  opacity: 0.3;
+}
+
+.single-project:hover button {
+  opacity: 1;
+} */
+
+.project1 {
+  background-image: url("../img/proj6.jpg");
+  max-width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 683px;
+  width: 100%;
+}
+
+.project2 {
+  background-image: url("../img/proj5.jpg");
+  max-width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 683px;
+  width: 100%;
+}
+
+.project3 {
+  background-image: url("../img/proj4.jpg");
+  max-width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 683px;
+  width: 100%;
+}
+
+.figure {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: orange;
+  background: #f6f7f7;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.project1:hover .figure {
+  opacity: 0.5;
+}
+
+.project1:hover .figure button {
+  opacity: 1;
+}
+.project1:hover .figure button {
+  opacity: 1;
+}
+
+button: ;
+
+/* .single-project img {
   opacity: 1;
   display: block;
   width: 100%;
@@ -52,4 +111,4 @@ button {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
-}
+} */

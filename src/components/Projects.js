@@ -20,23 +20,19 @@ class Projects extends Component {
           </section>
           <section class="project-images">
             <div class="single-project">
-              <img src={proj6} />
-              <p class="title">BookMaps</p>
-              <div class="middle">
+              <div class="project1">
+                <div class="figure">
+                  <button>View Project</button>
+                </div>
+              </div>
+            </div>
+            <div class="single-project">
+              <div class="project2">
                 <button>View Project</button>
               </div>
             </div>
             <div class="single-project">
-              <img src={proj5} />
-              <p class="title">Curriculum Bot</p>
-              <div class="middle">
-                <button>View Project</button>
-              </div>
-            </div>
-            <div class="single-project">
-              <img src={proj4} />
-              <p class="title">Farm Fresh Produce</p>
-              <div class="middle">
+              <div class="project3">
                 <button>View Project</button>
               </div>
             </div>
