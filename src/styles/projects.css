@@ -8,10 +8,17 @@
   border-bottom: 1px solid gray;
 }
 
+.project-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .single-project {
   position: relative;
   height: 683px;
   width: 1024px;
+  margin-top: 30px;
 }
 
 /* .single-project:hover {
