@@ -1,0 +1,53 @@
+.main-body {
+  background: #f6f7f7;
+}
+
+.about {
+  border: 1px solid green;
+  padding-top: 50px;
+}
+
+.title {
+  border: 1px solid red;
+  text-align: center;
+}
+
+.about-project {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.description {
+  border: 1px solid blueviolet;
+  width: 50%;
+  padding: 0 25px 0 3px;
+}
+
+.tech-info {
+  border: 1px solid black;
+  list-style-type: none;
+}
+
+.tech-info ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.tech-info span {
+  color: black;
+}
+
+.project-images {
+  text-align: center;
+}
+
+.project-images img {
+  margin: 15px auto 0px;
+}
+
+.project-images button {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
