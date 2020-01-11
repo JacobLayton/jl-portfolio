@@ -49,10 +49,10 @@ class Home extends Component {
           <Element id="featured-scroll" name="featured-scroll">
             <section class="about-featured">
               <div class="about-featured-contents">
-                <h4>Featured Work</h4>
+                <h4>Featured Project</h4>
                 <h4>___</h4>
                 <p>
-                  Hello, I'm Jacob. I am a Web Designer & Developer who is
+                  Hello, I'm Jacob. I am a Web Developer & Designer who is
                   passionate about crafting clean interfaces that provide user
                   friendly experiences. Below you can observe some of the
                   projects that I've had the privilege of building recently.
