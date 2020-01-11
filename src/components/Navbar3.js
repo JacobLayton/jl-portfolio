@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Logo from "../img/logo1.png";
 import { Link } from "react-scroll";
 
-class Navbar2 extends Component {
+class Navbar3 extends Component {
   render() {
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
@@ -26,7 +26,7 @@ class Navbar2 extends Component {
             <NavLogoWrapper src={Logo} alt="Logo of J L" />
           </NavLinkWrapper>
           <NavLinks>
-            <NavLinkWrapper to="/projects">Projects</NavLinkWrapper>
+            {/* <NavLinkWrapper to="/projects">Projects</NavLinkWrapper>
             <NavLinkWrapper>
               <Link
                 activeClass="active"
@@ -39,7 +39,8 @@ class Navbar2 extends Component {
                 About
               </Link>
             </NavLinkWrapper>
-            <NavLinkWrapper to="/contact">Contact</NavLinkWrapper>
+            <NavLinkWrapper to="/contact">Contact</NavLinkWrapper> */}
+            <NavLinkWrapper to="/projects">&lt;Back</NavLinkWrapper>
           </NavLinks>
         </NavBarWrapper>
       </div>
@@ -75,9 +76,8 @@ const NavLinkWrapper = styled(NavLink)`
 // `;
 
 const NavLogoWrapper = styled.img`
-  height: 90px;
+  height: 40px;
   border: 1px solid blue;
-  margin-top: -15px;
 `;
 
 const NavLinks = styled.div`
@@ -87,4 +87,4 @@ const NavLinks = styled.div`
   border: 1px solid purple;
 `;
 
-export default withRouter(Navbar2);
+export default withRouter(Navbar3);

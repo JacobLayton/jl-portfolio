@@ -1,16 +1,17 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "../styles/bookmaps.css";
 import { Button } from "reactstrap";
 import proj1 from "../img/proj1.jpg";
 import proj2 from "../img/proj2.jpg";
 import proj5 from "../img/proj5.jpg";
-import Navbar2 from "./Navbar2";
+import Navbar3 from "./Navbar3";
 
 class Bookmaps extends Component {
   render() {
     return (
       <div class="main-body">
-        <Navbar2 />
+        <Navbar3 />
         <section class="about">
           <div class="title">
             <h2>Bookmaps</h2>
@@ -59,7 +60,9 @@ class Bookmaps extends Component {
           <img src={proj2} />
           <img src={proj5} />
           <div>
-            <Button>NEXT PROJECT</Button>
+            <Link to="/tkbot">
+              <Button>NEXT PROJECT</Button>
+            </Link>
           </div>
         </section>
       </div>
