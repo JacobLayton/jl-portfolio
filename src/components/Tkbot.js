@@ -23,12 +23,21 @@ class Tkbot extends Component {
               <h6>PROJECT DESCRIPTION</h6>
               <h5>____</h5>
               <p>
-                This will be a lengthy project description of Curriculum Bot.
-                You will talk about who helped build the project and what your
-                role was. Feel free to describe any and all deatils that you
-                think are important to know about this project. Let's make this
-                paragraph jsut a little bit longer to make it more realistic and
-                easier to style when the time comes.
+                Curriculum Bot is a useful tool for students at Lambda School to
+                easily find the module they're looking for. This project
+                includes a search engine built in Python which uses Natural
+                Language Processing to find matches to keywords in the user's
+                search. We created a second backend using Node.js to handle a
+                Slackbot, which enabled students to use the search functionality
+                directly from our main slack channel. They just need to type a
+                simple slash command followed by a keyword or question, and the
+                bot will return links to the top 3 related modules. The final
+                part of this project was building a useful web application, this
+                allows students to securely login using their Slack credentials
+                and make new searches, view search history, and take notes using
+                a markdown editor. Unfortunately, only Lambda School students
+                have access to this service. I've included plenty of pictures
+                below to show its functionality.
               </p>
             </div>
             <div class="tech-info">
@@ -39,9 +48,7 @@ class Tkbot extends Component {
                 </li>
                 <li>
                   <h7>WEBSITE: </h7>
-                  <a href="https://bookmaps.netlify.com" target="_blank">
-                    Launch Site
-                  </a>
+                  <span>n/a</span>
                 </li>
                 <li>
                   <h7>CATEGORY: </h7>
@@ -49,7 +56,7 @@ class Tkbot extends Component {
                 </li>
                 <li>
                   <h7>TECH & TOOLS: </h7>
-                  <span>HTML, JQuery, LESS, PHP, Responsive, WordPress</span>
+                  <span>Python, Node, React, Javascript, HTML, CSS</span>
                 </li>
               </ul>
             </div>

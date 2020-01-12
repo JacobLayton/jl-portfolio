@@ -23,12 +23,21 @@ class Bookmaps extends Component {
               <h6>PROJECT DESCRIPTION</h6>
               <h5>____</h5>
               <p>
-                This will be a lengthy project description of Bookmaps. You will
-                talk about who helped build the project and what your role was.
-                Feel free to describe any and all deatils that you think are
-                important to know about this project. Let's make this paragraph
-                jsut a little bit longer to make it more realistic and easier to
-                style when the time comes.
+                BookMaps is a free P2P booksharing application which enables
+                users to safely lend and borrow books with people near them. It
+                serves as a great way for people who may not have access to a
+                library or bookstore to explore new books and expand their
+                knowledge. I built it in 5 weeks with the help of 4 other
+                developers. We used a wide array of technologies and external
+                APIs to accomplish an intuitive and effective user experience.
+                These include Google Maps, late/damage fees through Stripe,
+                automated emails through Sendgrid, Oauth secure login, Goodreads
+                book database, and more!
+              </p>
+              <p>
+                If you want to get past the paywall and use the full site, use
+                the development card number "4242 4242 4242 4242" with a valid
+                expiration date and cvv
               </p>
             </div>
             <div class="tech-info">
@@ -49,7 +58,7 @@ class Bookmaps extends Component {
                 </li>
                 <li>
                   <h7>TECH & TOOLS: </h7>
-                  <span>HTML, JQuery, LESS, PHP, Responsive, WordPress</span>
+                  <span>React/Redux, JavaScript, Node/Express, HTML, CSS</span>
                 </li>
               </ul>
             </div>

@@ -16,8 +16,9 @@ class Projects extends Component {
           <section class="title-description">
             <h2>Projects</h2>
             <p>
-              This will be a description of my projects I guess? Defintiely want
-              a short paragraph about what I like to work on and blah blah blah
+              Below are a few projects I've had the privelege of working on
+              recently. Please feel free to browse through and send me a message
+              if you have questions about their implementations.
             </p>
           </section>
           <section class="project-images">
