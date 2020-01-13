@@ -49,13 +49,13 @@ class Home extends Component {
           <Element id="featured-scroll" name="featured-scroll">
             <section class="about-featured">
               <div class="about-featured-contents">
-                <h4>Featured Work</h4>
+                <h4>Featured Project</h4>
+                <h5>BookMaps</h5>
                 <h4>___</h4>
                 <p>
-                  Hello, I'm Jacob. I am a Web Designer & Developer who is
-                  passionate about crafting clean interfaces that provide user
-                  friendly experiences. Below you can observe some of the
-                  projects that I've had the privilege of building recently.
+                  Hello, I'm Jacob. I am a Web Developer & Designer who is
+                  passionate about building intuitive and purposeful websites.
+                  One of my favorites is featured below!
                 </p>
               </div>
             </section>
@@ -80,18 +80,24 @@ class Home extends Component {
                 <div className="upper">
                   <img className="portrait" src={me} alt="Me" />
                   <p className="main-paragraph">
-                    This is going to be an about me section that will list all
-                    the important information about me. Something quick and to
-                    the point but also long enough to give potential employers a
-                    good idea of who I am in real life. Im a die hard fan of the
-                    Portland Trail Blazers and I pet every dog that I see.
+                    Born and raised in Portland, Oregon - I appreciate all that
+                    the Pacific Northwest has to offer. Whether it's
+                    snowboarding on Mt. Hood or hiking through the Columbia
+                    River Gorge, I love to get out and experience as much as
+                    possible. I bring the same disposition to the world of
+                    coding. I'm passionate about learning new technoglogies,
+                    understanding how they work under the hood, and then using
+                    them creatively to produce something new and different. I
+                    find inspiration in music, film, and nature. Die-hard Blazer
+                    fan.
                   </p>
                 </div>
                 <div className="lower">
+                  <p>Skills</p>
+                  <p>JavaScript | React/Redux | Node/Express | Jest</p>
+                  <p>HTML5 | CSS | Python | C</p>
                   <p>____</p>
-                  <p>This | Will | Be | A | List | Of</p>
-                  <p>All | My | Technical | Skills</p>
-                  <p>____</p>
+                  <p>Other Interests</p>
                   <p>Photoshop | Ableton Live | Basketball | Snowboarding</p>
                 </div>
                 <Link to="/contact">
