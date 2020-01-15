@@ -1,0 +1,8 @@
+/* #navbar {
+  border: 1px solid purple;
+} */
+
+#navbar .navlink:hover {
+  color: #bca480;
+  text-decoration: none;
+}

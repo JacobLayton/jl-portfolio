@@ -14,7 +14,7 @@ class Navbar extends Component {
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-70px";
       }
       prevScrollpos = currentScrollPos;
     };
@@ -49,9 +49,9 @@ class Navbar extends Component {
 }
 
 const NavBarWrapper = styled.div`
-  height: 5vh;
+  height: 7vh;
   width: 100%;
-  background: transparent;
+  background: white;
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@ const NavBarWrapper = styled.div`
 
 const NavLinkWrapper = styled(NavLink)`
   font-size: 1.2rem;
-  color: #757582;
+  color: #3b3e43;
   margin: 0 0.5rem;
   border: 1px solid green;
 `;

@@ -14,12 +14,13 @@ class Projects extends Component {
         <Navbar2 />
         <div class="projects-main">
           <section class="title-description">
-            <h2>Projects</h2>
-            <p>
+            <h2 class="proj-title">PROJECTS</h2>
+            <p class="project-info">
               Below are a few projects I've had the privelege of working on
               recently. Please feel free to browse through and send me a message
               if you have questions about their implementations.
             </p>
+            <div class="separator" />
           </section>
           <section class="project-images">
             <div class="single-project project1">

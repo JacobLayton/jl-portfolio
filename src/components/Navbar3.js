@@ -14,7 +14,7 @@ class Navbar3 extends Component {
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-70px";
       }
       prevScrollpos = currentScrollPos;
     };
