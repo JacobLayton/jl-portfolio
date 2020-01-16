@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { Link as ReactLink } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 import styled from "styled-components";
 import Logo from "../img/logo1.png";
@@ -71,7 +71,7 @@ const NavBarWrapper = styled.div`
   padding-left: 1%;
 `;
 
-const NavLinkWrapper = styled(NavLink)`
+const NavLinkWrapper = styled(ReactLink)`
   font-family: "Noto Serif", serif;
   font-size: 1rem;
   // color: #757582;
