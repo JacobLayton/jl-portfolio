@@ -30,9 +30,6 @@ class Navbar2 extends Component {
             </NavLinkWrapper>
           </NavHomeWrapper>
           <NavLinks>
-            <NavLinkWrapper to="/projects" className="navlink">
-              Projects
-            </NavLinkWrapper>
             <NavLinkWrapper className="navlink">
               <Link
                 activeClass="active"
@@ -44,6 +41,9 @@ class Navbar2 extends Component {
               >
                 About
               </Link>
+            </NavLinkWrapper>
+            <NavLinkWrapper to="/projects" className="navlink">
+              Projects
             </NavLinkWrapper>
             <NavLinkWrapper to="/contact" className="navlink">
               Contact
