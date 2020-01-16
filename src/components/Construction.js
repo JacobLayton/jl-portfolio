@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import hammer from "../img/hammergif.gif";
-import "../App.css";
+import "../styles/construction.css";
 
 class Construction extends Component {
   render() {
