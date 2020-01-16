@@ -16,14 +16,14 @@ class Bookmaps extends Component {
           <div class="title">
             <h2>Bookmaps</h2>
             <h4>Case Study</h4>
-            <h5>____</h5>
+            <div class="separator3" />
           </div>
           <div class="about-project">
             <div class="description">
               <h6>PROJECT DESCRIPTION</h6>
-              <h5>____</h5>
+              <div class="separator2" />
               <p>
-                BookMaps is a free P2P booksharing application which enables
+                BookMaps is a free P2P book-sharing application which enables
                 users to safely lend and borrow books with people near them. It
                 serves as a great way for people who may not have access to a
                 library or bookstore to explore new books and expand their
@@ -33,11 +33,6 @@ class Bookmaps extends Component {
                 These include Google Maps, late/damage fees through Stripe,
                 automated emails through Sendgrid, Oauth secure login, Goodreads
                 book database, and more!
-              </p>
-              <p>
-                If you want to get past the paywall and use the full site, use
-                the development card number "4242 4242 4242 4242" with a valid
-                expiration date and cvv
               </p>
             </div>
             <div class="tech-info">
