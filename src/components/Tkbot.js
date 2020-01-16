@@ -16,12 +16,12 @@ class Tkbot extends Component {
           <div class="title">
             <h2>Curriculum Bot</h2>
             <h4>Case Study</h4>
-            <h5>____</h5>
+            <div class="separator3" />
           </div>
           <div class="about-project">
             <div class="description">
               <h6>PROJECT DESCRIPTION</h6>
-              <h5>____</h5>
+              <div class="separator2" />
               <p>
                 Curriculum Bot is a useful tool for students at Lambda School to
                 easily find the module they're looking for. This project
