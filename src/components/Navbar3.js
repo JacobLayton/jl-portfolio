@@ -49,7 +49,7 @@ class Navbar3 extends Component {
 }
 
 const NavBarWrapper = styled.div`
-  height: 5vh;
+  height: 7vh;
   width: 100%;
   background: transparent;
   border: 1px solid red;

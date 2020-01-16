@@ -3,36 +3,63 @@
 }
 
 .about {
-  border: 1px solid green;
-  padding-top: 50px;
+  /* border: 1px solid green; */
+  padding-top: 90px;
 }
 
 .title {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.title h2 {
+  color: #bca480;
+}
+
+.separator3 {
+  width: 50px;
+  border-bottom: 2px solid #bca480;
+  margin: 30px auto;
+}
+
+.separator2 {
+  width: 50px;
+  border-bottom: 2px solid #bca480;
+  margin: 15px 0 10px;
 }
 
 .about-project {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .description {
-  border: 1px solid blueviolet;
+  /* border: 1px solid blueviolet; */
   width: 50%;
   padding: 0 25px 0 3px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
 }
 
 .tech-info {
-  border: 1px solid black;
+  width: 30%;
+  /* border: 1px solid black; */
   list-style-type: none;
+  padding: 0;
+}
+
+.tech-info ul {
+  padding: 45px 0 0;
 }
 
 .tech-info ul li {
   list-style-type: none;
   border-bottom: 1px solid #d7d7d7;
+  line-height: 30px;
 }
 
 .tech-info span {
