@@ -30,7 +30,7 @@ class Home extends Component {
           <span class="name-headline">Hello, I am Jacob</span>
           <span class="title-headline">FULL STACK WEB DEVELOPER</span>
           <Link to="/projects">
-            <Button>VIEW WORK</Button>
+            <Button color="danger">VIEW WORK</Button>
           </Link>
           <ScrollLink
             activeClass="active"

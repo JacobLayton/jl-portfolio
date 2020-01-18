@@ -38,22 +38,24 @@ class Bookmaps extends Component {
             <div class="tech-info">
               <ul>
                 <li>
-                  <h7>CLIENT: </h7>
-                  <span>Public Use</span>
+                  <span class="info-category">CLIENT: </span>
+                  <span class="info-details">Public Use</span>
                 </li>
                 <li>
-                  <h7>WEBSITE: </h7>
+                  <span class="info-category">WEBSITE: </span>
                   <a href="https://bookmaps.netlify.com" target="_blank">
                     Launch Site
                   </a>
                 </li>
                 <li>
-                  <h7>CATEGORY: </h7>
-                  <span>Web Development</span>
+                  <span class="info-category">CATEGORY: </span>
+                  <span class="info-details">Web Development</span>
                 </li>
                 <li>
-                  <h7>TECH & TOOLS: </h7>
-                  <span>React/Redux, JavaScript, Node/Express, HTML, CSS</span>
+                  <span class="info-category">TECH & TOOLS: </span>
+                  <span class="info-details">
+                    React/Redux, JavaScript, Node/Express, HTML, CSS
+                  </span>
                 </li>
               </ul>
             </div>

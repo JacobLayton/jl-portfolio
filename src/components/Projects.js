@@ -27,7 +27,7 @@ class Projects extends Component {
               <img src={proj6} alt="project image" class="image" />
               <div class="middle">
                 <Link to="/bookmaps">
-                  <button class="button">View Project</button>
+                  <Button class="button">View Project</Button>
                 </Link>
               </div>
             </div>
@@ -43,7 +43,7 @@ class Projects extends Component {
               <img src={proj4} alt="project image" class="image" />
               <div class="middle">
                 <Link to="/farmfresh">
-                  <button class="button">View Project</button>
+                  <Button class="button">View Project</Button>
                 </Link>
               </div>
             </div>
