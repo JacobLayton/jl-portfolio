@@ -62,10 +62,14 @@
   line-height: 30px;
 }
 
-.tech-info span {
+.tech-info .info-category {
   color: black;
+  font-size: 1rem;
 }
 
+.tech-info .info-details {
+  color: black;
+}
 .project-images {
   text-align: center;
 }

@@ -56,6 +56,15 @@
   color: white;
 }
 
+.name-title button:hover {
+  background: #bca480;
+  outline: none;
+  border: 1px solid #bca480;
+  max-width: 170px;
+  width: 100%;
+  color: white;
+}
+
 .about-featured {
   color: white;
   width: 100%;
@@ -91,6 +100,24 @@
   border-radius: 5px;
   cursor: pointer;
   background: #bca480;
+}
+
+.featured-content button {
+  background: transparent;
+  outline: none;
+  border: 1px solid #bca480;
+  max-width: 170px;
+  width: 100%;
+  color: #bca480;
+}
+
+.featured-content button:hover {
+  background: #bca480;
+  outline: none;
+  border: 1px solid #bca480;
+  max-width: 170px;
+  width: 100%;
+  color: white;
 }
 
 /* .carousel-item {
@@ -148,6 +175,24 @@
   color: #bca480;
   padding: 126px;
   text-align: center;
+}
+
+.about-me button {
+  background: transparent;
+  outline: none;
+  border: 1px solid #bca480;
+  max-width: 170px;
+  width: 100%;
+  color: #bca480;
+}
+
+.about-me button:hover {
+  background: #bca480;
+  outline: none;
+  border: 1px solid #bca480;
+  max-width: 170px;
+  width: 100%;
+  color: white;
 }
 
 .upper {
