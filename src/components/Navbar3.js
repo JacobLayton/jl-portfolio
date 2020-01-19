@@ -4,6 +4,7 @@ import { withRouter } from "react-router-dom";
 import styled from "styled-components";
 import Logo from "../img/logo1.png";
 import { Link } from "react-scroll";
+import "../styles/navbar.css";
 
 class Navbar3 extends Component {
   render() {
@@ -22,9 +23,12 @@ class Navbar3 extends Component {
     return (
       <div>
         <NavBarWrapper id="navbar">
-          <NavLinkWrapper exact to="/home">
-            <NavLogoWrapper src={Logo} alt="Logo of J L" />
-          </NavLinkWrapper>
+          <NavHomeWrapper>
+            <NavLinkWrapper exact to="/home" className="navlink">
+              Home
+              {/* <NavLogoWrapper src={Logo} alt="Logo of J L" /> */}
+            </NavLinkWrapper>
+          </NavHomeWrapper>
           <NavLinks>
             {/* <NavLinkWrapper to="/projects">Projects</NavLinkWrapper>
             <NavLinkWrapper>
@@ -51,7 +55,7 @@ class Navbar3 extends Component {
 const NavBarWrapper = styled.div`
   height: 7vh;
   width: 100%;
-  background: transparent;
+  background: white;
   // border: 1px solid red;
   display: flex;
   justify-content: space-between;
@@ -60,13 +64,22 @@ const NavBarWrapper = styled.div`
   top: 0;
   transition: top 0.3s;
   border-bottom: 1px solid lightgray;
+  padding-right: 3%;
+  padding-left: 1%;
 `;
 
 const NavLinkWrapper = styled(NavLink)`
+  font-family: "Noto Serif", serif;
   font-size: 1.2rem;
   color: #757582;
-  margin: 0 0.5rem;
+  margin: 0 1.5rem;
   // border: 1px solid green;
+`;
+
+const NavHomeWrapper = styled.div`
+  display: flex;
+  // border: 1px solid yellow;
+  align-items: center;
 `;
 
 // const ScrollLinkWrapper = styled(Link)`
