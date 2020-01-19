@@ -73,7 +73,7 @@ const NavBarWrapper = styled.div`
 
 const NavLinkWrapper = styled(ReactLink)`
   font-family: "Noto Serif", serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   // color: #757582;
   color: white;
   margin: 0 1.5rem;

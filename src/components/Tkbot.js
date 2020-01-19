@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/bookmaps.css";
 import { Button } from "reactstrap";
-import proj1 from "../img/proj1.jpg";
-import proj2 from "../img/proj2.jpg";
-import proj5 from "../img/proj5.jpg";
+import proj1 from "../img/tk-web-ready2.jpg";
+import proj2 from "../img/tk-web-read1.jpg";
+import proj5 from "../img/tk-web-ready3.jpg";
 import Navbar3 from "./Navbar3";
 
 class Tkbot extends Component {
@@ -43,20 +43,22 @@ class Tkbot extends Component {
             <div class="tech-info">
               <ul>
                 <li>
-                  <h7>CLIENT: </h7>
-                  <span>Public Use</span>
+                  <span class="info-category">CLIENT: </span>
+                  <span class="info-details">Public Use</span>
                 </li>
                 <li>
-                  <h7>WEBSITE: </h7>
-                  <span>n/a</span>
+                  <span class="info-category">WEBSITE: </span>
+                  <span class="info-details">n/a</span>
                 </li>
                 <li>
-                  <h7>CATEGORY: </h7>
-                  <span>Web Development</span>
+                  <span class="info-category">CATEGORY: </span>
+                  <span class="info-details">Web Development</span>
                 </li>
                 <li>
-                  <h7>TECH & TOOLS: </h7>
-                  <span>Python, Node, React, Javascript, HTML, CSS</span>
+                  <span class="info-category">TECH & TOOLS: </span>
+                  <span class="info-details">
+                    Python, Node, React, Javascript, HTML, CSS
+                  </span>
                 </li>
               </ul>
             </div>
@@ -66,7 +68,7 @@ class Tkbot extends Component {
           <img src={proj1} />
           <img src={proj2} />
           <img src={proj5} />
-          <div>
+          <div class="other-projects">
             <Link to="/bookmaps">
               <Button>PREV PROJECT</Button>
             </Link>

@@ -79,6 +79,28 @@
 }
 
 .project-images button {
-  margin-top: 15px;
-  margin-bottom: 20px;
+  /* margin-top: 15px;
+  margin-bottom: 20px; */
+  margin: 20px 10px 20px 10px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #bca480;
+  max-width: 170px;
+  width: 100%;
+  color: #bca480;
+}
+
+.project-images button:hover {
+  background: #bca480;
+  outline: none;
+  border: 1px solid #bca480;
+  max-width: 170px;
+  width: 100%;
+  color: white;
+}
+
+.other-projects {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
 }

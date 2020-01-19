@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Navbar2 from "./Navbar2";
 import "../styles/projects.css";
-import proj6 from "../img/proj6.jpg";
-import proj5 from "../img/proj5.jpg";
+import proj6 from "../img/bm-web-ready1.jpg";
+import proj5 from "../img/tk-web-read1.jpg";
 import proj4 from "../img/proj4.jpg";
 import { Button } from "reactstrap";
 import { Link } from "react-router-dom";
