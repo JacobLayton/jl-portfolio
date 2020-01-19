@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/bookmaps.css";
 import { Button } from "reactstrap";
-import proj1 from "../img/proj1.jpg";
-import proj2 from "../img/proj2.jpg";
-import proj5 from "../img/proj5.jpg";
+import proj1 from "../img/bm-web-ready3.jpg";
+import proj2 from "../img/bm-web-ready2.jpg";
+import proj5 from "../img/bm-web-ready1.jpg";
 import Navbar3 from "./Navbar3";
 
 class Bookmaps extends Component {
@@ -65,7 +65,7 @@ class Bookmaps extends Component {
           <img src={proj1} />
           <img src={proj2} />
           <img src={proj5} />
-          <div>
+          <div class="other-projects">
             <Link to="/tkbot">
               <Button>NEXT PROJECT</Button>
             </Link>

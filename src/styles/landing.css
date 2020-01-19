@@ -173,7 +173,7 @@
   background: white;
   /* margin-bottom: 50px; */
   color: #bca480;
-  padding: 126px;
+  padding: 40px 126px;
   text-align: center;
 }
 
@@ -184,6 +184,7 @@
   max-width: 170px;
   width: 100%;
   color: #bca480;
+  margin-top: 40px;
 }
 
 .about-me button:hover {

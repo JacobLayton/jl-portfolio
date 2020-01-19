@@ -4,7 +4,7 @@ import "../styles/landing.css";
 import { Button } from "reactstrap";
 import Carousel from "./Carousel";
 import me from "../img/me.JPG";
-import proj1 from "../img/proj1.jpg";
+import proj1 from "../img/bm-web-ready3.jpg";
 import { withRouter, Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import { Link as ScrollLink } from "react-scroll";
