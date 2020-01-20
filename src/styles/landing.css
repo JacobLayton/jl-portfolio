@@ -19,15 +19,19 @@
   background-size: cover;
 }
 
+/* .filler {
+  margin-top: 40vh;
+} */
+
 .name-title {
   text-align: center;
   color: white;
-  margin-top: -550px;
-  margin-bottom: 427px;
 }
 
 .name-headline {
-  display: block;
+  /* display: block; */
+  display: flex;
+  justify-content: center;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-size: 3.2rem;
@@ -35,10 +39,12 @@
   letter-spacing: 0.1rem;
   font-weight: 100;
   text-transform: none !important;
+  padding-top: 40vh;
 }
 
 .title-headline {
-  display: block;
+  display: flex;
+  justify-content: center;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-size: 1.41rem;
@@ -69,8 +75,8 @@
   color: white;
   width: 100%;
   background: #bca480;
-  height: 600px;
-  padding-top: 50px;
+  height: 100vh;
+  /* padding-top: 50px; */
   text-align: center;
 }
 
@@ -82,21 +88,20 @@
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
-.carousel {
+/* .carousel {
   margin: auto;
   margin-top: -350px;
   margin-bottom: 30px;
   width: 80%;
-}
+} */
 
 .featured-content img {
   margin: auto;
-  margin-top: -350px;
-  margin-bottom: 30px;
-  width: 80%;
+  width: 70%;
+  height: auto;
   border-radius: 5px;
   cursor: pointer;
   background: #bca480;
@@ -105,19 +110,19 @@
 .featured-content button {
   background: transparent;
   outline: none;
-  border: 1px solid #bca480;
-  max-width: 170px;
-  width: 100%;
-  color: #bca480;
-}
-
-.featured-content button:hover {
-  background: #bca480;
-  outline: none;
-  border: 1px solid #bca480;
+  border: 1px solid white;
   max-width: 170px;
   width: 100%;
   color: white;
+}
+
+.featured-content button:hover {
+  background: white;
+  outline: none;
+  border: 1px solid white;
+  max-width: 170px;
+  width: 100%;
+  color: #bca480;
 }
 
 /* .carousel-item {
@@ -137,11 +142,13 @@
 }
 
 .featured-content {
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px;
   background: #f6f7f7;
+  border: 1px solid blue; */
 }
 
 .project-thumbs {

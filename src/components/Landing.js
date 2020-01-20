@@ -25,25 +25,27 @@ class Home extends Component {
     return (
       <div class="landing-container">
         <Navbar />
-        <div class="parallax" />
-        <div class="name-title">
-          <span class="name-headline">Hello, I am Jacob</span>
-          <span class="title-headline">FULL STACK WEB DEVELOPER</span>
-          <Link to="/projects">
-            <Button color="danger">VIEW WORK</Button>
-          </Link>
-          <ScrollLink
-            activeClass="active"
-            to="featured-scroll"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <div class="arrow bounce">
-              <a class="fa fa-chevron-down fa-1x" href="#"></a>
-            </div>
-          </ScrollLink>
+        <div class="parallax">
+          <div class="name-title">
+            <div class="filler" />
+            <span class="name-headline">Hello, I am Jacob</span>
+            <span class="title-headline">FULL STACK WEB DEVELOPER</span>
+            <Link to="/projects">
+              <Button color="danger">VIEW WORK</Button>
+            </Link>
+            <ScrollLink
+              activeClass="active"
+              to="featured-scroll"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <div class="arrow bounce">
+                <a class="fa fa-chevron-down fa-1x" href="#"></a>
+              </div>
+            </ScrollLink>
+          </div>
         </div>
         <div>
           <Element id="featured-scroll" name="featured-scroll">
@@ -58,19 +60,12 @@ class Home extends Component {
                   One of my favorites is featured below!
                 </p>
               </div>
-            </section>
-            <section class="featured-content">
-              {/* <Carousel /> */}
-              <FeaturedProj />
-              {/* <img class="featured-project" src={proj1} /> */}
-              {/* <div class="project-thumbs">
-                <div class="box1">Box1</div>
-                <div class="box5">Box2</div>
-              </div> */}
-              <Link to="/projects">
-                <Button>VIEW ALL WORK</Button>
-              </Link>
-              {/* <FeaturedProj /> */}
+              <div class="featured-content">
+                <FeaturedProj />
+                <Link to="/projects">
+                  <Button>VIEW ALL WORK</Button>
+                </Link>
+              </div>
             </section>
           </Element>
           <React.Fragment>
