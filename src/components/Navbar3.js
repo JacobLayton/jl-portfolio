@@ -44,7 +44,9 @@ class Navbar3 extends Component {
               </Link>
             </NavLinkWrapper>
             <NavLinkWrapper to="/contact">Contact</NavLinkWrapper> */}
-            <NavLinkWrapper to="/projects">&lt;Back</NavLinkWrapper>
+            <NavLinkWrapper to="/projects" className="navlink">
+              &lt;Back
+            </NavLinkWrapper>
           </NavLinks>
         </NavBarWrapper>
       </div>

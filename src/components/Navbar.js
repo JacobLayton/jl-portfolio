@@ -17,6 +17,13 @@ class Navbar2 extends Component {
       } else {
         document.getElementById("navbar").style.top = "-70px";
       }
+      if (window.pageYOffset < 800) {
+        document.getElementById("navbar").style.background = "transparent";
+        document.getElementById("navbar").style.opacity = "1";
+      } else {
+        document.getElementById("navbar").style.background = "#28201D";
+        document.getElementById("navbar").style.opacity = "0.8";
+      }
       prevScrollpos = currentScrollPos;
     };
 
@@ -24,7 +31,15 @@ class Navbar2 extends Component {
       <div>
         <NavBarWrapper id="navbar">
           <NavHomeWrapper>
-            <NavLinkWrapper exact to="/home" className="navlink">
+            <NavLinkWrapper
+              exact
+              to="/home"
+              className="navlink"
+              id="navlink1"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
               Home
               {/* <NavLogoWrapper src={Logo} alt="Logo of J L" /> */}
             </NavLinkWrapper>
@@ -38,14 +53,22 @@ class Navbar2 extends Component {
                 smooth={true}
                 offset={0}
                 duration={500}
+                id="navlink2"
               >
                 About
               </Link>
             </NavLinkWrapper>
-            <NavLinkWrapper to="/projects" className="navlink">
+            <NavLinkWrapper
+              to="/projects"
+              className="navlink"
+              id="navlink3"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
               Projects
             </NavLinkWrapper>
-            <NavLinkWrapper to="/contact" className="navlink">
+            <NavLinkWrapper to="/contact" className="navlink" id="navlink4">
               Contact
             </NavLinkWrapper>
           </NavLinks>

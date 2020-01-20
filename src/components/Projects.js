@@ -27,7 +27,14 @@ class Projects extends Component {
               <img src={proj6} alt="project image" class="image" />
               <div class="middle">
                 <Link to="/bookmaps">
-                  <Button class="button">View Project</Button>
+                  <Button
+                    class="button"
+                    // onClick={() => {
+                    //   window.scrollTo(0, 0);
+                    // }}
+                  >
+                    View Project
+                  </Button>
                 </Link>
               </div>
             </div>

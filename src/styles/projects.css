@@ -37,8 +37,8 @@
 
 .single-project {
   position: relative;
-  height: 683px;
-  width: 1024px;
+  /* height: 683px; */
+  width: 75%;
   margin-top: 30px;
 }
 
@@ -49,6 +49,7 @@
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  border-radius: 5px;
 }
 
 .middle {
