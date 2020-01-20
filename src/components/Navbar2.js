@@ -80,7 +80,7 @@ const NavBarWrapper = styled.div`
 const NavLinkWrapper = styled(NavLink)`
   font-family: "Noto Serif", serif;
   font-size: 1.2rem;
-  color: #3b3e43;
+  color: #757582;
   margin: 0 1.5rem;
   // border: 1px solid green;
 `;
