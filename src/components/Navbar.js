@@ -31,7 +31,15 @@ class Navbar2 extends Component {
       <div>
         <NavBarWrapper id="navbar">
           <NavHomeWrapper>
-            <NavLinkWrapper exact to="/home" className="navlink" id="navlink1">
+            <NavLinkWrapper
+              exact
+              to="/home"
+              className="navlink"
+              id="navlink1"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
               Home
               {/* <NavLogoWrapper src={Logo} alt="Logo of J L" /> */}
             </NavLinkWrapper>
@@ -50,7 +58,14 @@ class Navbar2 extends Component {
                 About
               </Link>
             </NavLinkWrapper>
-            <NavLinkWrapper to="/projects" className="navlink" id="navlink3">
+            <NavLinkWrapper
+              to="/projects"
+              className="navlink"
+              id="navlink3"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
               Projects
             </NavLinkWrapper>
             <NavLinkWrapper to="/contact" className="navlink" id="navlink4">

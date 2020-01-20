@@ -44,7 +44,13 @@ class Navbar extends Component {
               </Link>
             </NavLinkWrapper>
             <NavLinkWrapper to="/contact">Contact</NavLinkWrapper> */}
-            <NavLinkWrapper to="/home" className="navlink">
+            <NavLinkWrapper
+              to="/home"
+              className="navlink"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
               &lt;Back
             </NavLinkWrapper>
           </NavLinks>
@@ -68,6 +74,7 @@ const NavBarWrapper = styled.div`
   border-bottom: 1px solid lightgray;
   padding-right: 3%;
   padding-left: 1%;
+  border-bottom: 1px solid lightgray;
 `;
 
 const NavLinkWrapper = styled(NavLink)`

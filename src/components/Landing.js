@@ -31,7 +31,13 @@ class Home extends Component {
             <span class="name-headline">Hello, I am Jacob</span>
             <span class="title-headline">FULL STACK WEB DEVELOPER</span>
             <Link to="/projects">
-              <Button color="danger">VIEW WORK</Button>
+              <Button
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+              >
+                VIEW WORK
+              </Button>
             </Link>
             <ScrollLink
               activeClass="active"
@@ -63,7 +69,13 @@ class Home extends Component {
               <div class="featured-content">
                 <FeaturedProj />
                 <Link to="/projects">
-                  <Button>VIEW ALL WORK</Button>
+                  <Button
+                    onClick={() => {
+                      window.scrollTo(0, 0);
+                    }}
+                  >
+                    VIEW ALL WORK
+                  </Button>
                 </Link>
               </div>
             </section>
