@@ -24,7 +24,7 @@ class Navbar extends Component {
       <div>
         <NavBarWrapper id="navbar">
           <NavHomeWrapper>
-            <NavLinkWrapper exact to="/home" className="navlink">
+            <NavLinkWrapper exact to="/" className="navlink">
               Home
               {/* <NavLogoWrapper src={Logo} alt="Logo of J L" /> */}
             </NavLinkWrapper>
@@ -45,7 +45,7 @@ class Navbar extends Component {
             </NavLinkWrapper>
             <NavLinkWrapper to="/contact">Contact</NavLinkWrapper> */}
             <NavLinkWrapper
-              to="/home"
+              to="/"
               className="navlink"
               onClick={() => {
                 window.scrollTo(0, 0);

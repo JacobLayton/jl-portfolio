@@ -44,7 +44,14 @@ class Projects extends Component {
               <p class="project-title">Curriculum Bot</p>
               <div class="middle">
                 <Link to="/tkbot">
-                  <Button class="button">View Project</Button>
+                  <Button
+                    class="button"
+                    onClick={() => {
+                      window.scrollTo(0, 0);
+                    }}
+                  >
+                    View Project
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -52,9 +59,16 @@ class Projects extends Component {
               <img src={proj4} alt="project image" class="image" />
               <p class="project-title">Farm Fresh</p>
               <div class="middle">
-                <Link to="/farmfresh">
-                  <Button class="button">View Project</Button>
-                </Link>
+                {/* <Link to="/farmfresh"> */}
+                <Button
+                  class="button"
+                  onClick={() => {
+                    alert("This project is still under construction");
+                  }}
+                >
+                  Coming Soon!
+                </Button>
+                {/* </Link> */}
               </div>
             </div>
           </section>

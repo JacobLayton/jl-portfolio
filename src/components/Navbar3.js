@@ -24,7 +24,7 @@ class Navbar3 extends Component {
       <div>
         <NavBarWrapper id="navbar">
           <NavHomeWrapper>
-            <NavLinkWrapper exact to="/home" className="navlink">
+            <NavLinkWrapper exact to="/" className="navlink">
               Home
               {/* <NavLogoWrapper src={Logo} alt="Logo of J L" /> */}
             </NavLinkWrapper>
