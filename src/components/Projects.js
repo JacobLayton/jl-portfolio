@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Navbar2 from "./Navbar2";
 import "../styles/projects.css";
-import proj6 from "../img/bm-web-ready1.jpg";
+import proj6 from "../img/bm-web-ready3.jpg";
 import proj5 from "../img/tk-web-read1.jpg";
-import proj4 from "../img/proj4.jpg";
+import proj4 from "../img/proj5.jpg";
 import { Button } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -25,6 +25,7 @@ class Projects extends Component {
           <section class="project-images">
             <div class="single-project project1">
               <img src={proj6} alt="project image" class="image" />
+              <p class="project-title">BookMaps</p>
               <div class="middle">
                 <Link to="/bookmaps">
                   <Button
@@ -40,6 +41,7 @@ class Projects extends Component {
             </div>
             <div class="single-project project2">
               <img src={proj5} alt="project image" class="image" />
+              <p class="project-title">Curriculum Bot</p>
               <div class="middle">
                 <Link to="/tkbot">
                   <Button class="button">View Project</Button>
@@ -48,6 +50,7 @@ class Projects extends Component {
             </div>
             <div class="single-project project3">
               <img src={proj4} alt="project image" class="image" />
+              <p class="project-title">Farm Fresh</p>
               <div class="middle">
                 <Link to="/farmfresh">
                   <Button class="button">View Project</Button>
