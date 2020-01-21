@@ -33,7 +33,7 @@ class Navbar2 extends Component {
           <NavHomeWrapper>
             <NavLinkWrapper
               exact
-              to="/home"
+              to="/"
               className="navlink"
               id="navlink1"
               onClick={() => {

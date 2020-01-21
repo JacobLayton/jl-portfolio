@@ -18,8 +18,8 @@ function App() {
       <div className="App">
         <header className="App-header">
           {/* <Navbar /> */}
-          <Route exact path="/" component={Construction} />
-          <Route exact path="/home" component={Landing} />
+          {/* <Route exact path="/" component={Construction} /> */}
+          <Route exact path="/" component={Landing} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/bookmaps" component={Bookmaps} />
           <Route exact path="/tkbot" component={Tkbot} />
