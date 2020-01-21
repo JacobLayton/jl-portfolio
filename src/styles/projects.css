@@ -50,6 +50,8 @@
   transition: 0.5s ease;
   backface-visibility: hidden;
   border-radius: 5px;
+  -webkit-filter: brightness(0.8); /* Safari */
+  filter: brightness(0.8);
 }
 
 .project-title {
@@ -96,9 +98,9 @@
 }
 
 .middle button {
-  background: #bca480;
+  background: white !important;
   outline: none;
-  border: 1px solid #bca480;
+  border: 1px solid #bca480 !important;
   width: 170px;
   height: 55px;
   color: white;
@@ -106,10 +108,10 @@
 }
 
 .middle button:hover {
-  background: white;
+  background: #bca480 !important;
   outline: none;
-  border: 1px solid #bca480;
+  border: 1px solid #bca480 !important;
   max-width: 170px;
   width: 100%;
-  color: #bca480;
+  color: white !important;
 }
