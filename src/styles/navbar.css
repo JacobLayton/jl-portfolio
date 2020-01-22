@@ -6,3 +6,22 @@
   color: #bca480;
   text-decoration: none;
 }
+
+@media (max-width: 770px) {
+  #navbar {
+    padding-right: 1% !important;
+  }
+  .navlink {
+    margin: 0 1rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #navbar {
+    padding-right: 1% !important;
+  }
+  .navlink {
+    margin: 0.5rem !important;
+    font-size: 1rem !important;
+  }
+}
