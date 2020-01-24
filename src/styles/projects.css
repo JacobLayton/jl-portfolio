@@ -76,6 +76,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  background: transparent;
 }
 
 .single-project:hover .image {
@@ -83,6 +84,10 @@
 }
 
 .single-project:hover .middle {
+  opacity: 1;
+}
+
+.single-project:hover .project-title {
   opacity: 1;
 }
 
