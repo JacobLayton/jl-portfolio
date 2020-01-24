@@ -9,15 +9,15 @@ import { withRouter, Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import { Link as ScrollLink } from "react-scroll";
 
-const FeaturedProj = withRouter(({ history }) => (
-  <img
-    src={proj1}
-    onClick={() => {
-      history.push("/bookmaps");
-      window.scrollTo(0, 0);
-    }}
-  />
-));
+// const FeaturedProj = withRouter(({ history }) => (
+//   <img
+//     src={proj1}
+//     onClick={() => {
+//       history.push("/bookmaps");
+//       window.scrollTo(0, 0);
+//     }}
+//   />
+// ));
 
 class Home extends Component {
   render() {
@@ -67,7 +67,22 @@ class Home extends Component {
                 </p>
               </div>
               <div class="featured-content">
-                <FeaturedProj />
+                {/* <FeaturedProj /> */}
+                <div class="image-container">
+                  <img src={proj1} alt="project image" class="image" />
+                  <div class="middle2">
+                    <Link to="/bookmaps">
+                      <Button
+                        class="button"
+                        onClick={() => {
+                          window.scrollTo(0, 0);
+                        }}
+                      >
+                        View Project
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
                 <Link to="/projects">
                   <Button
                     onClick={() => {
