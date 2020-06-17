@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 import Bookmaps from "./components/Bookmaps";
 import Tkbot from "./components/Tkbot";
 import Farmfresh from "./components/Farmfresh";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact2";
 import Footer from "./components/Footer";
 import Construction from "./components/Construction";
 
