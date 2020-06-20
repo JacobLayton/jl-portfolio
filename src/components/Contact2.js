@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/contact.css";
+import "../styles/contact2.css";
 import Navbar2 from "./Navbar2";
 import {
   Col,
@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
     };
 
     axios
-      .post(`http://localhost:5000/email`, { user })
+      .post(`https://portfolio-node-backend.herokuapp.com/email`, { user })
       .then((res) => {
         console.log(res);
       })
@@ -52,22 +52,39 @@ export default class Contact extends React.Component {
       <div>
         <Navbar2 />
         <form onSubmit={this.handleSubmit}>
-          <label>
-            Name:
-            <input type="text" name="name" onChange={this.handleChange} />
-          </label>
-          <label>
-            Email:
-            <input type="email" name="email" onChange={this.handleChange} />
-          </label>
-          <label>
-            Subject:
-            <input type="text" name="subject" onChange={this.handleChange} />
-          </label>
-          <label>
-            Message:
-            <input type="textarea" name="text" onChange={this.handleChange} />
-          </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            onChange={this.handleChange}
+            className="input"
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            onChange={this.handleChange}
+            className="input"
+          />
+
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            onChange={this.handleChange}
+            className="input"
+          />
+
+          <input
+            type="textarea"
+            name="text"
+            placeholder="Enter message here"
+            onChange={this.handleChange}
+            className="text-input"
+            wrap="hard"
+          />
+
           <button type="submit">submit</button>
         </form>
       </div>
