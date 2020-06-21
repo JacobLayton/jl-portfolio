@@ -76,16 +76,24 @@ export default class Contact extends React.Component {
             className="input"
           />
 
-          <input
+          {/* <input
             type="textarea"
             name="text"
             placeholder="Enter message here"
             onChange={this.handleChange}
             className="text-input"
-            wrap="hard"
-          />
+            wrap="pyhsical"
+            rows="10"
+          /> */}
+          <textarea
+            name="text"
+            placeholder="Enter your message here"
+            onChange={this.handleChange}
+            className="text-input"
+            rows="5"
+          ></textarea>
 
-          <button type="submit">submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     );
