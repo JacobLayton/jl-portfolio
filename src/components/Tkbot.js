@@ -65,9 +65,9 @@ class Tkbot extends Component {
           </div>
         </section>
         <section class="project-images">
-          <img src={proj1} />
-          <img src={proj2} />
-          <img src={proj5} />
+          <img src={proj1} alt="Mobile view" />
+          <img src={proj2} alt="Laptop view" />
+          <img src={proj5} alt="Tablet view" />
           <div class="other-projects">
             <Link to="/bookmaps">
               <Button>PREV PROJECT</Button>
