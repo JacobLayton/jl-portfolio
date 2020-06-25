@@ -13,13 +13,17 @@ import {
 import axios from "axios";
 
 export default class Contact extends React.Component {
-  state = {
-    name: "",
-    email: "",
-    subject: "",
-    text: "",
-    hasSubmittedForm: false,
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: "",
+      email: "",
+      subject: "",
+      text: "",
+      hasSubmittedForm: true,
+    };
+  }
 
   handleChange = (e) => {
     const value = e.target.value;
@@ -55,8 +59,9 @@ export default class Contact extends React.Component {
   thankYouButton = () => {
     if (this.hasSubmittedForm) {
       return <h1>Thank You!</h1>;
+    } else {
+      return <button type="submit">Submit</button>;
     }
-    return <button type="submit">Submit</button>;
   };
 
   render() {
@@ -106,8 +111,13 @@ export default class Contact extends React.Component {
               rows="5"
             ></textarea>
             {/* <this.thankYouButton hasSubmittedForm={false} /> */}
+            {this.state.hasSubmittedForm ? (
+              <h3>Thank You!</h3>
+            ) : (
+              <button type="submit">Submit</button>
+            )}
 
-            <button type="submit">Submit</button>
+            {/* <button type="submit">Submit</button> */}
           </form>
         </div>
       </div>
