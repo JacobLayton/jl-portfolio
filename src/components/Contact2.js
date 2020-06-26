@@ -21,7 +21,7 @@ export default class Contact extends React.Component {
       email: "",
       subject: "",
       text: "",
-      hasSubmittedForm: true,
+      hasSubmittedForm: false,
     };
   }
 
@@ -44,8 +44,8 @@ export default class Contact extends React.Component {
     };
 
     axios
-      // .post(`https://portfolio-node-backend.herokuapp.com/email`, { user })
-      .post(`https://portfolio-node-backend.herokuapp.com`, { user })
+      .post(`https://portfolio-node-backend.herokuapp.com/email`, { user })
+      // .post(`https://portfolio-node-backend.herokuapp.com`, { user })
       .then((res) => {
         console.log(res);
       })
@@ -93,16 +93,6 @@ export default class Contact extends React.Component {
               onChange={this.handleChange}
               className="input"
             />
-
-            {/* <input
-              type="textarea"
-              name="text"
-              placeholder="Enter message here"
-              onChange={this.handleChange}
-              className="text-input"
-              wrap="pyhsical"
-              rows="10"
-            /> */}
             <textarea
               name="text"
               placeholder="Enter your message here"
@@ -110,14 +100,13 @@ export default class Contact extends React.Component {
               className="text-input"
               rows="5"
             ></textarea>
-            {/* <this.thankYouButton hasSubmittedForm={false} /> */}
             {this.state.hasSubmittedForm ? (
-              <h3>Thank You!</h3>
+              <h3 className="thankyou">Thank You!</h3>
             ) : (
-              <button type="submit">Submit</button>
+              <button type="submit" className="submitButton">
+                Submit
+              </button>
             )}
-
-            {/* <button type="submit">Submit</button> */}
           </form>
         </div>
       </div>

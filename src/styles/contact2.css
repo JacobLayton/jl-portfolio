@@ -67,11 +67,11 @@ textarea:focus {
   border: 1px solid #bca480;
 }
 
-button {
+.submitButton {
   background: transparent;
   outline: none;
   border: 1px solid #bca480;
-  border-radius: 0.25rem !important;
+  border-radius: 0.25rem;
   max-width: 170px;
   height: 55px;
   width: 100%;
@@ -79,13 +79,19 @@ button {
   margin-top: 20px;
 }
 
-button:hover {
+.submitButton:hover {
   background: #bca480;
   outline: none;
   border: 1px solid #bca480;
   max-width: 170px;
   width: 100%;
   color: white;
+}
+
+.thankyou {
+  color: #f6f7f7;
+  font-size: 1.5em;
+  margin-top: 25px;
 }
 
 @media (max-width: 600px) {
