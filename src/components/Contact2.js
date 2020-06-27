@@ -1,15 +1,6 @@
 import React from "react";
 import "../styles/contact2.css";
 import Navbar2 from "./Navbar2";
-import {
-  Col,
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText,
-} from "reactstrap";
 import axios from "axios";
 
 export default class Contact extends React.Component {
