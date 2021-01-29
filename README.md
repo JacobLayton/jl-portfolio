@@ -55,3 +55,5 @@
 - [ ] Connect section with links
 - [ ] Search
 - [ ] Copyright
+
+Small Change
