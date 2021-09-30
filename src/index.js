@@ -6,6 +6,8 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
-  <h1>App is currently under construction</h1>,
+  <Router>
+    <App />
+  </Router>,
   document.getElementById("root")
 );
